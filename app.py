@@ -8,11 +8,11 @@ def restaurant_info():  # put application's code here
     return render_template('restaurant-info.html')
 
 @app.route('/restaurant-add')
-def restaurant_info():  # put application's code here
+def restaurant_add():  # put application's code here
     return render_template('restaurant-add.html')
 
 @app.route('/restaurant-delete')
-def restaurant_info():  # put application's code here
+def restaurant_delete():  # put application's code here
     return render_template('restaurant-delete.html')
 
 
